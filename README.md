@@ -1,7 +1,6 @@
 <div align="center">
 
-<h1>📡 D²SS</h1>
-<h3>Dual-Dictionary Semantic Signaling</h3>
+<h2>D²SS: Dual-Dictionary Semantic Signaling for Robust Task-Oriented Wireless Communication in Split-Computing System</h2>
 
 **Keep the backbone. Learn the wireless interface.**
 
@@ -155,7 +154,7 @@ Use `--m 64` to change the signal dimension, or `--batch-size 64 --workers 0` to
 
 ## 📖 Paper
 
-**D²SS: Dual-Dictionary Semantic Signaling for Robust Task-Oriented Wireless Communication in Split-Computing System**
+**D²SS: Dual-Dictionary Semantic Signaling for Robust Task-Oriented Wireless Communication in Split-Computing System** is submited to IEEE.
 
 If you use this code, please cite the accompanying paper. Backbones are provided by `pytorchcv`; the semantic dictionary follows the [SimVQ parameterization](https://doi.org/10.1109/ICCV51701.2025.02132).
 
