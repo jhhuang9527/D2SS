@@ -1,0 +1,76 @@
+{
+  "config": {
+    "semantic": {
+      "n": 8,
+      "d": 256,
+      "k": 128,
+      "m": 196,
+      "hidden_dim": 256,
+      "power": 1.0,
+      "det_temperature": 0.05,
+      "commitment_beta": 0.25,
+      "signature_seed": 42,
+      "grad_bridge": 1.0
+    },
+    "training": {
+      "batch_size": 256,
+      "workers": 8,
+      "seed": 42,
+      "amp": true,
+      "eval_every": 5,
+      "grad_clip": 1.0,
+      "stage1_epochs": 75,
+      "stage2_epochs": 125,
+      "warmup_epochs": 25,
+      "kmeans_tokens": 8192,
+      "kmeans_iters": 12,
+      "lr_stage1": 0.0003,
+      "lr_stage2": 0.0001,
+      "weight_decay": 0.0001,
+      "loss_stage1": {
+        "ce": 1.0,
+        "kd": 0.3,
+        "vq": 1.0
+      },
+      "loss_stage2": {
+        "perturbed_ce": 1.0,
+        "perturbed_kd": 0.2,
+        "vq": 0.5
+      },
+      "g2_radii": [
+        0.2,
+        0.5,
+        1.0,
+        1.5,
+        2.5
+      ],
+      "g2_val_radius": 1.0
+    },
+    "test": {
+      "snrs": [
+        -9,
+        -7,
+        -5,
+        -3,
+        -1,
+        1,
+        5,
+        9
+      ],
+      "modes": [
+        "none",
+        "imperfect_ls",
+        "perfect_ls"
+      ],
+      "repeats": 5,
+      "rician_k": 5.0,
+      "csi_error_var": 0.5
+    }
+  },
+  "backbone": "diracnet18v2",
+  "pretrained": "/path/to/weights/diracnet18v2/best.pt",
+  "stage1_effective": {
+    "continuous": 25,
+    "hard": 50
+  }
+}
