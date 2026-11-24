@@ -1,0 +1,348 @@
+2026-11-09 18:18:02 | Loaded fine-tuned ImageNet-100 resnet18 from /root/hjh/imagenet100_backbones/runs/resnet18/best.pt
+2026-11-09 18:18:03 | Signal dictionary seed=42, mean_offdiag_energy=0.00511559, max_offdiag_corr=0.221663, norm_error=5.96e-07
+2026-11-09 18:18:03 | Frozen resnet18 N=8 D=256 K=128 M=196 uses=1568 | curriculum=25 continuous + 50 VQ, then 125 robust training
+2026-11-09 18:18:03 | STAGE clean start=1/75
+2026-11-09 18:19:13 | clean    1/75 continuous lr 0.0003 Top1 2.90% (teacher 88.35%) CE 4.352 KD 10.785 VQ 0.000 idx -- used -- PPL nan spread 0.4844 pred_classes 86 best -1.00%
+2026-11-09 18:20:22 | clean    2/75 continuous lr 0.000299872 Top1 10.61% (teacher 88.37%) CE 3.608 KD 8.838 VQ 0.000 idx -- used -- PPL nan spread 0.7814 pred_classes 100 best -1.00%
+2026-11-09 18:21:33 | clean    3/75 continuous lr 0.00029949 Top1 23.48% (teacher 88.39%) CE 2.926 KD 6.899 VQ 0.000 idx -- used -- PPL nan spread 0.8375 pred_classes 100 best -1.00%
+2026-11-09 18:24:57 | clean    4/75 continuous lr 0.000298853 Top1 34.77% (teacher 88.46%) CE 2.458 KD 5.522 VQ 0.000 idx -- used -- PPL nan spread 0.8593 pred_classes 100 best -1.00%
+2026-11-09 18:28:48 | clean    5/75 continuous lr 0.000297962 Top1 42.73% (teacher 88.41%) CE 2.149 KD 4.599 VQ 0.000 idx -- used -- PPL nan spread 0.8751 pred_classes 100 best -1.00%
+2026-11-09 18:32:34 | clean    6/75 continuous lr 0.00029682 Top1 48.08% (teacher 88.38%) CE 1.948 KD 4.016 VQ 0.000 idx -- used -- PPL nan spread 0.8854 pred_classes 100 best -1.00%
+2026-11-09 18:36:18 | clean    7/75 continuous lr 0.000295429 Top1 51.83% (teacher 88.38%) CE 1.798 KD 3.578 VQ 0.000 idx -- used -- PPL nan spread 0.8903 pred_classes 100 best -1.00%
+2026-11-09 18:40:02 | clean    8/75 continuous lr 0.00029379 Top1 54.68% (teacher 88.41%) CE 1.687 KD 3.260 VQ 0.000 idx -- used -- PPL nan spread 0.8949 pred_classes 100 best -1.00%
+2026-11-09 18:43:46 | clean    9/75 continuous lr 0.000291907 Top1 57.09% (teacher 88.43%) CE 1.595 KD 3.001 VQ 0.000 idx -- used -- PPL nan spread 0.8970 pred_classes 100 best -1.00%
+2026-11-09 18:47:38 | clean   10/75 continuous lr 0.000289782 Top1 59.04% (teacher 88.29%) CE 1.518 KD 2.782 VQ 0.000 idx -- used -- PPL nan spread 0.9008 pred_classes 100 best -1.00%
+2026-11-09 18:51:24 | clean   11/75 continuous lr 0.000287421 Top1 60.61% (teacher 88.42%) CE 1.456 KD 2.616 VQ 0.000 idx -- used -- PPL nan spread 0.9011 pred_classes 100 best -1.00%
+2026-11-09 18:55:09 | clean   12/75 continuous lr 0.000284826 Top1 61.94% (teacher 88.46%) CE 1.407 KD 2.481 VQ 0.000 idx -- used -- PPL nan spread 0.9037 pred_classes 100 best -1.00%
+2026-11-09 18:58:53 | clean   13/75 continuous lr 0.000282003 Top1 63.27% (teacher 88.51%) CE 1.355 KD 2.347 VQ 0.000 idx -- used -- PPL nan spread 0.9072 pred_classes 100 best -1.00%
+2026-11-09 19:02:37 | clean   14/75 continuous lr 0.000278955 Top1 64.33% (teacher 88.44%) CE 1.312 KD 2.243 VQ 0.000 idx -- used -- PPL nan spread 0.9081 pred_classes 100 best -1.00%
+2026-11-09 19:06:28 | clean   15/75 continuous lr 0.00027569 Top1 65.27% (teacher 88.54%) CE 1.274 KD 2.146 VQ 0.000 idx -- used -- PPL nan spread 0.9099 pred_classes 100 best -1.00%
+2026-11-09 19:10:13 | clean   16/75 continuous lr 0.000272212 Top1 66.13% (teacher 88.41%) CE 1.240 KD 2.053 VQ 0.000 idx -- used -- PPL nan spread 0.9094 pred_classes 100 best -1.00%
+2026-11-09 19:13:59 | clean   17/75 continuous lr 0.000268527 Top1 66.78% (teacher 88.20%) CE 1.214 KD 1.978 VQ 0.000 idx -- used -- PPL nan spread 0.9106 pred_classes 100 best -1.00%
+2026-11-09 19:17:43 | clean   18/75 continuous lr 0.000264643 Top1 67.66% (teacher 88.52%) CE 1.176 KD 1.908 VQ 0.000 idx -- used -- PPL nan spread 0.9142 pred_classes 100 best -1.00%
+2026-11-09 19:21:27 | clean   19/75 continuous lr 0.000260565 Top1 68.36% (teacher 88.39%) CE 1.152 KD 1.843 VQ 0.000 idx -- used -- PPL nan spread 0.9136 pred_classes 100 best -1.00%
+2026-11-09 19:25:19 | clean   20/75 continuous lr 0.000256301 Top1 69.16% (teacher 88.54%) CE 1.123 KD 1.790 VQ 0.000 idx -- used -- PPL nan spread 0.9151 pred_classes 100 best -1.00%
+2026-11-09 19:29:04 | clean   21/75 continuous lr 0.000251859 Top1 69.52% (teacher 88.53%) CE 1.102 KD 1.730 VQ 0.000 idx -- used -- PPL nan spread 0.9146 pred_classes 100 best -1.00%
+2026-11-09 19:32:49 | clean   22/75 continuous lr 0.000247245 Top1 70.04% (teacher 88.46%) CE 1.088 KD 1.678 VQ 0.000 idx -- used -- PPL nan spread 0.9140 pred_classes 100 best -1.00%
+2026-11-09 19:36:34 | clean   23/75 continuous lr 0.000242469 Top1 70.47% (teacher 88.28%) CE 1.069 KD 1.635 VQ 0.000 idx -- used -- PPL nan spread 0.9152 pred_classes 100 best -1.00%
+2026-11-09 19:40:18 | clean   24/75 continuous lr 0.000237539 Top1 71.23% (teacher 88.50%) CE 1.037 KD 1.593 VQ 0.000 idx -- used -- PPL nan spread 0.9157 pred_classes 100 best -1.00%
+2026-11-09 19:44:10 | clean   25/75 continuous lr 0.000232463 Top1 71.44% (teacher 88.38%) CE 1.032 KD 1.560 VQ 0.000 idx -- used -- PPL nan spread 0.9162 pred_classes 100 best -1.00%
+2026-11-09 19:44:10 | Collecting train Encoder outputs for spherical K-means ...
+2026-11-09 19:44:13 | K-means SimVQ initialized: tokens=8192, cluster_active=128/128, encoder_spread=0.96892, iters=12
+2026-11-09 19:48:06 | clean BEST epoch=26 phase=hard top1/score=63.68%
+2026-11-09 19:48:07 | clean   26/75 hard       lr 0.00022725 Top1 61.00% (teacher 88.41%) CE 1.539 KD 2.722 VQ 0.795 idx 100.0% used 128/128 PPL 117.1 spread 1.0311 pred_classes 100 best 63.68%
+2026-11-09 19:51:53 | clean   27/75 hard       lr 0.00022191 Top1 61.84% (teacher 88.40%) CE 1.525 KD 2.709 VQ 0.942 idx 100.0% used 128/128 PPL 116.7 spread 1.1575 pred_classes 100 best 63.68%
+2026-11-09 19:55:36 | clean   28/75 hard       lr 0.000216451 Top1 62.39% (teacher 88.50%) CE 1.514 KD 2.693 VQ 1.076 idx 100.0% used 128/128 PPL 117.0 spread 1.2509 pred_classes 100 best 63.68%
+2026-11-09 19:59:21 | clean   29/75 hard       lr 0.000210884 Top1 62.72% (teacher 88.46%) CE 1.505 KD 2.663 VQ 1.224 idx 100.0% used 128/128 PPL 116.8 spread 1.3343 pred_classes 100 best 63.68%
+2026-11-09 20:03:16 | clean BEST epoch=30 phase=hard top1/score=65.74%
+2026-11-09 20:03:16 | clean   30/75 hard       lr 0.000205217 Top1 62.92% (teacher 88.48%) CE 1.501 KD 2.656 VQ 1.364 idx 100.0% used 128/128 PPL 117.1 spread 1.4089 pred_classes 100 best 65.74%
+2026-11-09 20:07:04 | clean   31/75 hard       lr 0.000199462 Top1 63.38% (teacher 88.30%) CE 1.487 KD 2.617 VQ 1.512 idx 100.0% used 128/128 PPL 117.4 spread 1.4798 pred_classes 100 best 65.74%
+2026-11-09 20:10:53 | clean   32/75 hard       lr 0.000193628 Top1 63.74% (teacher 88.42%) CE 1.471 KD 2.565 VQ 1.658 idx 100.0% used 128/128 PPL 117.0 spread 1.5463 pred_classes 100 best 65.74%
+2026-11-09 20:14:40 | clean   33/75 hard       lr 0.000187725 Top1 64.28% (teacher 88.50%) CE 1.444 KD 2.522 VQ 1.812 idx 100.0% used 128/128 PPL 116.9 spread 1.6104 pred_classes 100 best 65.74%
+2026-11-09 20:18:27 | clean   34/75 hard       lr 0.000181764 Top1 64.98% (teacher 88.45%) CE 1.428 KD 2.472 VQ 1.953 idx 100.0% used 128/128 PPL 116.9 spread 1.6681 pred_classes 100 best 65.74%
+2026-11-09 20:22:23 | clean BEST epoch=35 phase=hard top1/score=68.22%
+2026-11-09 20:22:23 | clean   35/75 hard       lr 0.000175755 Top1 65.62% (teacher 88.43%) CE 1.416 KD 2.443 VQ 2.104 idx 100.0% used 128/128 PPL 117.3 spread 1.7239 pred_classes 100 best 68.22%
+2026-11-09 20:26:12 | clean   36/75 hard       lr 0.000169709 Top1 65.92% (teacher 88.44%) CE 1.400 KD 2.396 VQ 2.241 idx 100.0% used 128/128 PPL 117.0 spread 1.7757 pred_classes 100 best 68.22%
+2026-11-09 20:30:01 | clean   37/75 hard       lr 0.000163636 Top1 66.52% (teacher 88.33%) CE 1.396 KD 2.381 VQ 2.377 idx 100.0% used 128/128 PPL 117.0 spread 1.8222 pred_classes 100 best 68.22%
+2026-11-09 20:33:48 | clean   38/75 hard       lr 0.000157547 Top1 67.55% (teacher 88.52%) CE 1.354 KD 2.296 VQ 2.489 idx 100.0% used 128/128 PPL 117.0 spread 1.8651 pred_classes 100 best 68.22%
+2026-11-09 20:37:35 | clean   39/75 hard       lr 0.000151453 Top1 67.77% (teacher 88.44%) CE 1.349 KD 2.268 VQ 2.592 idx 100.0% used 128/128 PPL 116.9 spread 1.9030 pred_classes 100 best 68.22%
+2026-11-09 20:41:31 | clean BEST epoch=40 phase=hard top1/score=70.44%
+2026-11-09 20:41:31 | clean   40/75 hard       lr 0.000145364 Top1 68.56% (teacher 88.52%) CE 1.320 KD 2.201 VQ 2.675 idx 100.0% used 128/128 PPL 116.6 spread 1.9355 pred_classes 100 best 70.44%
+2026-11-09 20:45:19 | clean   41/75 hard       lr 0.000139291 Top1 68.72% (teacher 88.40%) CE 1.310 KD 2.165 VQ 2.737 idx 100.0% used 128/128 PPL 116.3 spread 1.9633 pred_classes 100 best 70.44%
+2026-11-09 20:49:08 | clean   42/75 hard       lr 0.000133245 Top1 68.92% (teacher 88.34%) CE 1.303 KD 2.145 VQ 2.794 idx 100.0% used 128/128 PPL 116.6 spread 1.9839 pred_classes 100 best 70.44%
+2026-11-09 20:52:55 | clean   43/75 hard       lr 0.000127236 Top1 69.62% (teacher 88.30%) CE 1.275 KD 2.080 VQ 2.828 idx 100.0% used 128/128 PPL 116.4 spread 2.0034 pred_classes 100 best 70.44%
+2026-11-09 20:56:43 | clean   44/75 hard       lr 0.000121275 Top1 70.07% (teacher 88.31%) CE 1.260 KD 2.054 VQ 2.851 idx 100.0% used 128/128 PPL 116.6 spread 2.0152 pred_classes 100 best 70.44%
+2026-11-09 21:00:37 | clean BEST epoch=45 phase=hard top1/score=72.20%
+2026-11-09 21:00:37 | clean   45/75 hard       lr 0.000115372 Top1 70.62% (teacher 88.29%) CE 1.249 KD 2.012 VQ 2.860 idx 100.0% used 128/128 PPL 116.7 spread 2.0232 pred_classes 100 best 72.20%
+2026-11-09 21:04:26 | clean   46/75 hard       lr 0.000109538 Top1 71.06% (teacher 88.44%) CE 1.231 KD 1.993 VQ 2.843 idx 100.0% used 128/128 PPL 116.7 spread 2.0248 pred_classes 100 best 72.20%
+2026-11-09 21:08:15 | clean   47/75 hard       lr 0.000103783 Top1 71.32% (teacher 88.37%) CE 1.220 KD 1.950 VQ 2.829 idx 100.0% used 128/128 PPL 117.0 spread 2.0243 pred_classes 100 best 72.20%
+2026-11-09 21:12:02 | clean   48/75 hard       lr 9.81165e-05 Top1 71.63% (teacher 88.32%) CE 1.212 KD 1.928 VQ 2.797 idx 100.0% used 128/128 PPL 117.0 spread 2.0224 pred_classes 100 best 72.20%
+2026-11-09 21:15:50 | clean   49/75 hard       lr 9.25491e-05 Top1 72.10% (teacher 88.44%) CE 1.188 KD 1.891 VQ 2.776 idx 100.0% used 128/128 PPL 117.2 spread 2.0179 pred_classes 100 best 72.20%
+2026-11-09 21:19:45 | clean BEST epoch=50 phase=hard top1/score=73.20%
+2026-11-09 21:19:45 | clean   50/75 hard       lr 8.70904e-05 Top1 72.41% (teacher 88.44%) CE 1.182 KD 1.878 VQ 2.733 idx 100.0% used 128/128 PPL 117.1 spread 2.0106 pred_classes 100 best 73.20%
+2026-11-09 21:23:31 | clean   51/75 hard       lr 8.175e-05 Top1 72.69% (teacher 88.55%) CE 1.170 KD 1.864 VQ 2.701 idx 100.0% used 128/128 PPL 116.9 spread 2.0039 pred_classes 100 best 73.20%
+2026-11-09 21:27:19 | clean   52/75 hard       lr 7.65372e-05 Top1 72.75% (teacher 88.34%) CE 1.160 KD 1.832 VQ 2.669 idx 100.0% used 128/128 PPL 117.1 spread 1.9971 pred_classes 100 best 73.20%
+2026-11-09 21:31:06 | clean   53/75 hard       lr 7.14612e-05 Top1 73.15% (teacher 88.38%) CE 1.154 KD 1.815 VQ 2.632 idx 100.0% used 128/128 PPL 117.2 spread 1.9892 pred_classes 100 best 73.20%
+2026-11-09 21:34:53 | clean   54/75 hard       lr 6.65308e-05 Top1 73.25% (teacher 88.41%) CE 1.147 KD 1.801 VQ 2.594 idx 100.0% used 128/128 PPL 117.3 spread 1.9819 pred_classes 100 best 73.20%
+2026-11-09 21:38:47 | clean BEST epoch=55 phase=hard top1/score=75.48%
+2026-11-09 21:38:47 | clean   55/75 hard       lr 6.17548e-05 Top1 73.40% (teacher 88.41%) CE 1.140 KD 1.783 VQ 2.573 idx 100.0% used 128/128 PPL 117.2 spread 1.9751 pred_classes 100 best 75.48%
+2026-11-09 21:42:34 | clean   56/75 hard       lr 5.71415e-05 Top1 73.83% (teacher 88.41%) CE 1.127 KD 1.760 VQ 2.540 idx 100.0% used 128/128 PPL 117.1 spread 1.9659 pred_classes 100 best 75.48%
+2026-11-09 21:46:23 | clean   57/75 hard       lr 5.2699e-05 Top1 73.78% (teacher 88.33%) CE 1.121 KD 1.752 VQ 2.513 idx 100.0% used 128/128 PPL 117.0 spread 1.9593 pred_classes 100 best 75.48%
+2026-11-09 21:50:10 | clean   58/75 hard       lr 4.84351e-05 Top1 74.09% (teacher 88.51%) CE 1.105 KD 1.728 VQ 2.480 idx 100.0% used 128/128 PPL 117.0 spread 1.9526 pred_classes 100 best 75.48%
+2026-11-09 21:53:57 | clean   59/75 hard       lr 4.43572e-05 Top1 74.14% (teacher 88.37%) CE 1.112 KD 1.725 VQ 2.455 idx 100.0% used 128/128 PPL 116.8 spread 1.9454 pred_classes 100 best 75.48%
+2026-11-09 21:57:53 | clean   60/75 hard       lr 4.04726e-05 Top1 74.12% (teacher 88.31%) CE 1.107 KD 1.713 VQ 2.435 idx 100.0% used 128/128 PPL 117.3 spread 1.9400 pred_classes 100 best 75.48%
+2026-11-09 22:01:41 | clean   61/75 hard       lr 3.6788e-05 Top1 74.26% (teacher 88.36%) CE 1.097 KD 1.695 VQ 2.410 idx 100.0% used 128/128 PPL 117.2 spread 1.9341 pred_classes 100 best 75.48%
+2026-11-09 22:05:29 | clean   62/75 hard       lr 3.331e-05 Top1 74.51% (teacher 88.37%) CE 1.095 KD 1.694 VQ 2.392 idx 100.0% used 128/128 PPL 117.0 spread 1.9282 pred_classes 100 best 75.48%
+2026-11-09 22:09:16 | clean   63/75 hard       lr 3.00445e-05 Top1 74.48% (teacher 88.40%) CE 1.085 KD 1.679 VQ 2.371 idx 100.0% used 128/128 PPL 117.1 spread 1.9209 pred_classes 100 best 75.48%
+2026-11-09 22:13:02 | clean   64/75 hard       lr 2.69974e-05 Top1 74.74% (teacher 88.34%) CE 1.079 KD 1.669 VQ 2.355 idx 100.0% used 128/128 PPL 117.0 spread 1.9170 pred_classes 100 best 75.48%
+2026-11-09 22:16:58 | clean BEST epoch=65 phase=hard top1/score=75.88%
+2026-11-09 22:16:58 | clean   65/75 hard       lr 2.41739e-05 Top1 74.78% (teacher 88.57%) CE 1.075 KD 1.666 VQ 2.338 idx 100.0% used 128/128 PPL 117.2 spread 1.9128 pred_classes 100 best 75.88%
+2026-11-09 22:20:47 | clean   66/75 hard       lr 2.15791e-05 Top1 74.97% (teacher 88.49%) CE 1.070 KD 1.652 VQ 2.327 idx 100.0% used 128/128 PPL 117.1 spread 1.9084 pred_classes 100 best 75.88%
+2026-11-09 22:24:34 | clean   67/75 hard       lr 1.92175e-05 Top1 74.79% (teacher 88.32%) CE 1.076 KD 1.649 VQ 2.318 idx 100.0% used 128/128 PPL 117.1 spread 1.9041 pred_classes 100 best 75.88%
+2026-11-09 22:28:22 | clean   68/75 hard       lr 1.70932e-05 Top1 74.97% (teacher 88.36%) CE 1.062 KD 1.639 VQ 2.304 idx 100.0% used 128/128 PPL 117.3 spread 1.9003 pred_classes 100 best 75.88%
+2026-11-09 22:32:10 | clean   69/75 hard       lr 1.521e-05 Top1 74.94% (teacher 88.36%) CE 1.064 KD 1.639 VQ 2.296 idx 100.0% used 128/128 PPL 117.1 spread 1.8975 pred_classes 100 best 75.88%
+2026-11-09 22:36:06 | clean BEST epoch=70 phase=hard top1/score=76.28%
+2026-11-09 22:36:06 | clean   70/75 hard       lr 1.35712e-05 Top1 75.14% (teacher 88.39%) CE 1.061 KD 1.622 VQ 2.291 idx 100.0% used 128/128 PPL 117.2 spread 1.8956 pred_classes 100 best 76.28%
+2026-11-09 22:39:54 | clean   71/75 hard       lr 1.21795e-05 Top1 75.10% (teacher 88.31%) CE 1.061 KD 1.631 VQ 2.281 idx 100.0% used 128/128 PPL 117.2 spread 1.8930 pred_classes 100 best 76.28%
+2026-11-09 22:43:42 | clean   72/75 hard       lr 1.10376e-05 Top1 75.25% (teacher 88.40%) CE 1.057 KD 1.619 VQ 2.273 idx 100.0% used 128/128 PPL 117.2 spread 1.8909 pred_classes 100 best 76.28%
+2026-11-09 22:47:29 | clean   73/75 hard       lr 1.01473e-05 Top1 75.25% (teacher 88.44%) CE 1.059 KD 1.630 VQ 2.272 idx 100.0% used 128/128 PPL 117.2 spread 1.8896 pred_classes 100 best 76.28%
+2026-11-09 22:51:16 | clean   74/75 hard       lr 9.51029e-06 Top1 75.12% (teacher 88.40%) CE 1.058 KD 1.617 VQ 2.264 idx 100.0% used 128/128 PPL 117.3 spread 1.8868 pred_classes 100 best 76.28%
+2026-11-09 22:55:11 | clean   75/75 hard       lr 9.12763e-06 Top1 75.01% (teacher 88.27%) CE 1.063 KD 1.629 VQ 2.261 idx 100.0% used 128/128 PPL 117.4 spread 1.8864 pred_classes 100 best 76.28%
+2026-11-09 22:55:12 | Stage2 initialized from Stage1 best epoch=70
+2026-11-09 22:55:12 | STAGE robust start=1/125
+2026-11-09 22:58:59 | robust   1/125 hard       lr 0.0001 Top1 72.73% (teacher 88.48%) CE 1.159 KD 1.950 VQ 2.449 idx 99.2% used 128/128 PPL 118.5 spread 1.9345 pred_classes 100 best -1.00%
+2026-11-09 23:02:45 | robust   2/125 hard       lr 9.99847e-05 Top1 72.93% (teacher 88.40%) CE 1.152 KD 1.927 VQ 2.626 idx 99.1% used 128/128 PPL 118.4 spread 1.9704 pred_classes 100 best -1.00%
+2026-11-09 23:06:32 | robust   3/125 hard       lr 9.99387e-05 Top1 72.98% (teacher 88.34%) CE 1.145 KD 1.895 VQ 2.762 idx 99.1% used 128/128 PPL 118.8 spread 1.9998 pred_classes 100 best -1.00%
+2026-11-09 23:10:18 | robust   4/125 hard       lr 9.98622e-05 Top1 73.12% (teacher 88.45%) CE 1.143 KD 1.899 VQ 2.873 idx 99.1% used 128/128 PPL 118.5 spread 2.0257 pred_classes 100 best -1.00%
+2026-11-09 23:14:12 | robust BEST epoch=5 phase=hard top1/score=74.04%
+2026-11-09 23:14:12 | robust   5/125 hard       lr 9.97551e-05 Top1 73.35% (teacher 88.47%) CE 1.137 KD 1.886 VQ 2.980 idx 99.1% used 128/128 PPL 118.4 spread 2.0517 pred_classes 100 best 74.04%
+2026-11-09 23:18:01 | robust   6/125 hard       lr 9.96176e-05 Top1 73.28% (teacher 88.34%) CE 1.140 KD 1.885 VQ 3.083 idx 99.1% used 128/128 PPL 118.5 spread 2.0742 pred_classes 100 best 74.04%
+2026-11-09 23:21:48 | robust   7/125 hard       lr 9.94496e-05 Top1 73.35% (teacher 88.41%) CE 1.130 KD 1.869 VQ 3.184 idx 99.1% used 128/128 PPL 118.4 spread 2.0977 pred_classes 100 best 74.04%
+2026-11-09 23:25:35 | robust   8/125 hard       lr 9.92514e-05 Top1 73.45% (teacher 88.31%) CE 1.132 KD 1.868 VQ 3.283 idx 99.1% used 128/128 PPL 118.3 spread 2.1213 pred_classes 100 best 74.04%
+2026-11-09 23:29:22 | robust   9/125 hard       lr 9.9023e-05 Top1 73.53% (teacher 88.45%) CE 1.129 KD 1.866 VQ 3.372 idx 99.1% used 128/128 PPL 118.5 spread 2.1426 pred_classes 100 best 74.04%
+2026-11-09 23:33:16 | robust BEST epoch=10 phase=hard top1/score=75.46%
+2026-11-09 23:33:16 | robust  10/125 hard       lr 9.87646e-05 Top1 73.57% (teacher 88.44%) CE 1.126 KD 1.862 VQ 3.456 idx 99.1% used 128/128 PPL 118.4 spread 2.1624 pred_classes 100 best 75.46%
+2026-11-09 23:37:04 | robust  11/125 hard       lr 9.84763e-05 Top1 73.72% (teacher 88.39%) CE 1.124 KD 1.854 VQ 3.533 idx 99.1% used 128/128 PPL 118.9 spread 2.1809 pred_classes 100 best 75.46%
+2026-11-09 23:40:52 | robust  12/125 hard       lr 9.81583e-05 Top1 73.62% (teacher 88.36%) CE 1.119 KD 1.845 VQ 3.614 idx 99.1% used 128/128 PPL 118.7 spread 2.1985 pred_classes 100 best 75.46%
+2026-11-09 23:44:36 | robust  13/125 hard       lr 9.78109e-05 Top1 74.10% (teacher 88.53%) CE 1.106 KD 1.839 VQ 3.670 idx 99.1% used 128/128 PPL 118.7 spread 2.2115 pred_classes 100 best 75.46%
+2026-11-09 23:48:23 | robust  14/125 hard       lr 9.74343e-05 Top1 73.80% (teacher 88.23%) CE 1.120 KD 1.842 VQ 3.745 idx 99.1% used 128/128 PPL 118.7 spread 2.2274 pred_classes 100 best 75.46%
+2026-11-09 23:52:17 | robust BEST epoch=15 phase=hard top1/score=76.00%
+2026-11-09 23:52:17 | robust  15/125 hard       lr 9.70286e-05 Top1 73.81% (teacher 88.26%) CE 1.112 KD 1.821 VQ 3.793 idx 99.1% used 128/128 PPL 118.7 spread 2.2389 pred_classes 100 best 76.00%
+2026-11-09 23:56:03 | robust  16/125 hard       lr 9.65942e-05 Top1 74.15% (teacher 88.54%) CE 1.104 KD 1.817 VQ 3.835 idx 99.1% used 128/128 PPL 118.6 spread 2.2470 pred_classes 100 best 76.00%
+2026-11-09 23:59:51 | robust  17/125 hard       lr 9.61312e-05 Top1 74.20% (teacher 88.39%) CE 1.103 KD 1.815 VQ 3.872 idx 99.1% used 128/128 PPL 118.9 spread 2.2529 pred_classes 100 best 76.00%
+2026-11-10 00:03:37 | robust  18/125 hard       lr 9.56401e-05 Top1 74.12% (teacher 88.39%) CE 1.104 KD 1.810 VQ 3.889 idx 99.1% used 128/128 PPL 118.9 spread 2.2550 pred_classes 100 best 76.00%
+2026-11-10 00:07:23 | robust  19/125 hard       lr 9.51212e-05 Top1 74.21% (teacher 88.30%) CE 1.102 KD 1.809 VQ 3.921 idx 99.1% used 128/128 PPL 118.7 spread 2.2620 pred_classes 100 best 76.00%
+2026-11-10 00:11:17 | robust BEST epoch=20 phase=hard top1/score=76.02%
+2026-11-10 00:11:17 | robust  20/125 hard       lr 9.45746e-05 Top1 74.45% (teacher 88.42%) CE 1.087 KD 1.785 VQ 3.939 idx 99.2% used 128/128 PPL 119.2 spread 2.2630 pred_classes 100 best 76.02%
+2026-11-10 00:15:03 | robust  21/125 hard       lr 9.40009e-05 Top1 74.38% (teacher 88.48%) CE 1.090 KD 1.802 VQ 3.958 idx 99.1% used 128/128 PPL 119.1 spread 2.2656 pred_classes 100 best 76.02%
+2026-11-10 00:18:50 | robust  22/125 hard       lr 9.34003e-05 Top1 74.36% (teacher 88.33%) CE 1.091 KD 1.793 VQ 3.968 idx 99.1% used 128/128 PPL 119.1 spread 2.2657 pred_classes 100 best 76.02%
+2026-11-10 00:22:36 | robust  23/125 hard       lr 9.27732e-05 Top1 74.53% (teacher 88.60%) CE 1.086 KD 1.797 VQ 3.961 idx 99.2% used 128/128 PPL 119.3 spread 2.2628 pred_classes 100 best 76.02%
+2026-11-10 00:26:22 | robust  24/125 hard       lr 9.21201e-05 Top1 74.30% (teacher 88.41%) CE 1.092 KD 1.797 VQ 3.965 idx 99.1% used 128/128 PPL 119.5 spread 2.2590 pred_classes 100 best 76.02%
+2026-11-10 00:30:17 | robust  25/125 hard       lr 9.14413e-05 Top1 74.41% (teacher 88.44%) CE 1.087 KD 1.782 VQ 3.966 idx 99.2% used 128/128 PPL 119.5 spread 2.2570 pred_classes 100 best 76.02%
+2026-11-10 00:34:05 | robust  26/125 hard       lr 9.07373e-05 Top1 74.58% (teacher 88.45%) CE 1.084 KD 1.769 VQ 3.977 idx 99.1% used 128/128 PPL 119.3 spread 2.2574 pred_classes 100 best 76.02%
+2026-11-10 00:37:52 | robust  27/125 hard       lr 9.00085e-05 Top1 74.54% (teacher 88.31%) CE 1.086 KD 1.771 VQ 3.939 idx 99.1% used 128/128 PPL 119.6 spread 2.2469 pred_classes 100 best 76.02%
+2026-11-10 00:41:39 | robust  28/125 hard       lr 8.92554e-05 Top1 74.60% (teacher 88.53%) CE 1.083 KD 1.766 VQ 3.940 idx 99.2% used 128/128 PPL 119.7 spread 2.2442 pred_classes 100 best 76.02%
+2026-11-10 00:45:25 | robust  29/125 hard       lr 8.84785e-05 Top1 74.72% (teacher 88.30%) CE 1.075 KD 1.760 VQ 3.927 idx 99.2% used 128/128 PPL 119.4 spread 2.2388 pred_classes 100 best 76.02%
+2026-11-10 00:49:20 | robust BEST epoch=30 phase=hard top1/score=76.26%
+2026-11-10 00:49:20 | robust  30/125 hard       lr 8.76781e-05 Top1 74.82% (teacher 88.37%) CE 1.075 KD 1.758 VQ 3.954 idx 99.1% used 128/128 PPL 119.6 spread 2.2425 pred_classes 100 best 76.26%
+2026-11-10 00:53:07 | robust  31/125 hard       lr 8.6855e-05 Top1 74.98% (teacher 88.49%) CE 1.068 KD 1.746 VQ 3.916 idx 99.1% used 128/128 PPL 119.8 spread 2.2311 pred_classes 100 best 76.26%
+2026-11-10 00:56:54 | robust  32/125 hard       lr 8.60095e-05 Top1 74.93% (teacher 88.49%) CE 1.066 KD 1.746 VQ 3.945 idx 99.1% used 128/128 PPL 119.6 spread 2.2343 pred_classes 100 best 76.26%
+2026-11-10 01:00:41 | robust  33/125 hard       lr 8.51422e-05 Top1 74.96% (teacher 88.48%) CE 1.066 KD 1.750 VQ 3.936 idx 99.2% used 128/128 PPL 119.6 spread 2.2311 pred_classes 100 best 76.26%
+2026-11-10 01:04:26 | robust  34/125 hard       lr 8.42536e-05 Top1 74.89% (teacher 88.49%) CE 1.066 KD 1.749 VQ 3.981 idx 99.1% used 128/128 PPL 119.8 spread 2.2389 pred_classes 100 best 76.26%
+2026-11-10 01:08:21 | robust BEST epoch=35 phase=hard top1/score=76.86%
+2026-11-10 01:08:21 | robust  35/125 hard       lr 8.33444e-05 Top1 75.08% (teacher 88.35%) CE 1.060 KD 1.740 VQ 4.014 idx 99.1% used 128/128 PPL 119.7 spread 2.2433 pred_classes 100 best 76.86%
+2026-11-10 01:12:09 | robust  36/125 hard       lr 8.24151e-05 Top1 75.24% (teacher 88.47%) CE 1.056 KD 1.720 VQ 3.958 idx 99.1% used 128/128 PPL 119.9 spread 2.2264 pred_classes 100 best 76.86%
+2026-11-10 01:15:56 | robust  37/125 hard       lr 8.14662e-05 Top1 75.30% (teacher 88.41%) CE 1.045 KD 1.708 VQ 3.948 idx 99.1% used 128/128 PPL 120.0 spread 2.2227 pred_classes 100 best 76.86%
+2026-11-10 01:19:42 | robust  38/125 hard       lr 8.04984e-05 Top1 75.11% (teacher 88.40%) CE 1.051 KD 1.721 VQ 3.997 idx 99.1% used 128/128 PPL 119.8 spread 2.2307 pred_classes 100 best 76.86%
+2026-11-10 01:23:28 | robust  39/125 hard       lr 7.95123e-05 Top1 75.35% (teacher 88.42%) CE 1.044 KD 1.722 VQ 3.976 idx 99.2% used 128/128 PPL 120.0 spread 2.2244 pred_classes 100 best 76.86%
+2026-11-10 01:27:22 | robust  40/125 hard       lr 7.85085e-05 Top1 75.15% (teacher 88.40%) CE 1.051 KD 1.716 VQ 4.017 idx 99.2% used 128/128 PPL 120.3 spread 2.2315 pred_classes 100 best 76.86%
+2026-11-10 01:31:09 | robust  41/125 hard       lr 7.74876e-05 Top1 75.34% (teacher 88.48%) CE 1.044 KD 1.715 VQ 4.020 idx 99.1% used 128/128 PPL 120.0 spread 2.2310 pred_classes 100 best 76.86%
+2026-11-10 01:34:56 | robust  42/125 hard       lr 7.64503e-05 Top1 75.40% (teacher 88.37%) CE 1.044 KD 1.695 VQ 4.004 idx 99.1% used 128/128 PPL 119.7 spread 2.2241 pred_classes 100 best 76.86%
+2026-11-10 01:38:42 | robust  43/125 hard       lr 7.53973e-05 Top1 75.54% (teacher 88.30%) CE 1.041 KD 1.684 VQ 3.968 idx 99.1% used 128/128 PPL 119.6 spread 2.2126 pred_classes 100 best 76.86%
+2026-11-10 01:42:27 | robust  44/125 hard       lr 7.43291e-05 Top1 75.61% (teacher 88.40%) CE 1.033 KD 1.688 VQ 3.972 idx 99.2% used 128/128 PPL 119.4 spread 2.2130 pred_classes 100 best 76.86%
+2026-11-10 01:46:22 | robust  45/125 hard       lr 7.32466e-05 Top1 75.70% (teacher 88.24%) CE 1.031 KD 1.671 VQ 3.966 idx 99.1% used 128/128 PPL 119.7 spread 2.2102 pred_classes 100 best 76.86%
+2026-11-10 01:50:10 | robust  46/125 hard       lr 7.21503e-05 Top1 75.73% (teacher 88.35%) CE 1.032 KD 1.674 VQ 3.958 idx 99.2% used 128/128 PPL 119.5 spread 2.2047 pred_classes 100 best 76.86%
+2026-11-10 01:53:56 | robust  47/125 hard       lr 7.1041e-05 Top1 75.85% (teacher 88.35%) CE 1.024 KD 1.659 VQ 3.935 idx 99.1% used 128/128 PPL 119.5 spread 2.1989 pred_classes 100 best 76.86%
+2026-11-10 01:57:42 | robust  48/125 hard       lr 6.99193e-05 Top1 76.18% (teacher 88.41%) CE 1.013 KD 1.644 VQ 3.892 idx 99.1% used 128/128 PPL 120.0 spread 2.1867 pred_classes 100 best 76.86%
+2026-11-10 02:01:29 | robust  49/125 hard       lr 6.8786e-05 Top1 76.14% (teacher 88.53%) CE 1.017 KD 1.643 VQ 4.012 idx 99.1% used 128/128 PPL 120.3 spread 2.2142 pred_classes 100 best 76.86%
+2026-11-10 02:05:24 | robust  50/125 hard       lr 6.76417e-05 Top1 75.93% (teacher 88.23%) CE 1.026 KD 1.655 VQ 4.001 idx 99.2% used 128/128 PPL 120.7 spread 2.2088 pred_classes 100 best 76.86%
+2026-11-10 02:09:13 | robust  51/125 hard       lr 6.64873e-05 Top1 76.29% (teacher 88.40%) CE 1.010 KD 1.630 VQ 3.957 idx 99.1% used 128/128 PPL 120.9 spread 2.1974 pred_classes 100 best 76.86%
+2026-11-10 02:13:01 | robust  52/125 hard       lr 6.53234e-05 Top1 76.25% (teacher 88.45%) CE 1.008 KD 1.627 VQ 3.937 idx 99.1% used 128/128 PPL 120.9 spread 2.1918 pred_classes 100 best 76.86%
+2026-11-10 02:16:47 | robust  53/125 hard       lr 6.41508e-05 Top1 76.45% (teacher 88.41%) CE 1.005 KD 1.621 VQ 3.956 idx 99.1% used 128/128 PPL 120.9 spread 2.1964 pred_classes 100 best 76.86%
+2026-11-10 02:20:34 | robust  54/125 hard       lr 6.29702e-05 Top1 76.53% (teacher 88.52%) CE 0.997 KD 1.613 VQ 3.930 idx 99.1% used 128/128 PPL 120.9 spread 2.1894 pred_classes 100 best 76.86%
+2026-11-10 02:24:27 | robust BEST epoch=55 phase=hard top1/score=77.52%
+2026-11-10 02:24:27 | robust  55/125 hard       lr 6.17823e-05 Top1 76.50% (teacher 88.48%) CE 0.999 KD 1.614 VQ 3.934 idx 99.2% used 128/128 PPL 121.1 spread 2.1901 pred_classes 100 best 77.52%
+2026-11-10 02:28:14 | robust  56/125 hard       lr 6.0588e-05 Top1 76.70% (teacher 88.47%) CE 0.993 KD 1.596 VQ 3.855 idx 99.1% used 128/128 PPL 120.8 spread 2.1669 pred_classes 100 best 77.52%
+2026-11-10 02:32:01 | robust  57/125 hard       lr 5.93879e-05 Top1 76.76% (teacher 88.29%) CE 0.987 KD 1.593 VQ 3.864 idx 99.1% used 128/128 PPL 120.9 spread 2.1699 pred_classes 100 best 77.52%
+2026-11-10 02:35:47 | robust  58/125 hard       lr 5.81828e-05 Top1 76.90% (teacher 88.34%) CE 0.986 KD 1.585 VQ 3.857 idx 99.2% used 128/128 PPL 120.9 spread 2.1695 pred_classes 100 best 77.52%
+2026-11-10 02:39:32 | robust  59/125 hard       lr 5.69735e-05 Top1 76.81% (teacher 88.35%) CE 0.991 KD 1.592 VQ 3.837 idx 99.2% used 128/128 PPL 121.0 spread 2.1620 pred_classes 100 best 77.52%
+2026-11-10 02:43:25 | robust  60/125 hard       lr 5.57608e-05 Top1 76.97% (teacher 88.45%) CE 0.981 KD 1.582 VQ 3.846 idx 99.2% used 128/128 PPL 121.1 spread 2.1638 pred_classes 100 best 77.52%
+2026-11-10 02:47:12 | robust  61/125 hard       lr 5.45453e-05 Top1 77.00% (teacher 88.41%) CE 0.978 KD 1.570 VQ 3.832 idx 99.1% used 128/128 PPL 120.8 spread 2.1593 pred_classes 100 best 77.52%
+2026-11-10 02:51:01 | robust  62/125 hard       lr 5.3328e-05 Top1 77.02% (teacher 88.43%) CE 0.973 KD 1.569 VQ 3.815 idx 99.1% used 128/128 PPL 120.8 spread 2.1520 pred_classes 100 best 77.52%
+2026-11-10 02:54:47 | robust  63/125 hard       lr 5.21095e-05 Top1 77.08% (teacher 88.40%) CE 0.977 KD 1.571 VQ 3.814 idx 99.1% used 128/128 PPL 120.8 spread 2.1517 pred_classes 100 best 77.52%
+2026-11-10 02:58:35 | robust  64/125 hard       lr 5.08905e-05 Top1 77.17% (teacher 88.40%) CE 0.971 KD 1.564 VQ 3.813 idx 99.1% used 128/128 PPL 120.7 spread 2.1510 pred_classes 100 best 77.52%
+2026-11-10 03:02:30 | robust  65/125 hard       lr 4.9672e-05 Top1 77.34% (teacher 88.48%) CE 0.961 KD 1.546 VQ 3.773 idx 99.1% used 128/128 PPL 120.5 spread 2.1405 pred_classes 100 best 77.52%
+2026-11-10 03:06:16 | robust  66/125 hard       lr 4.84547e-05 Top1 77.23% (teacher 88.40%) CE 0.965 KD 1.550 VQ 3.776 idx 99.2% used 128/128 PPL 120.8 spread 2.1411 pred_classes 100 best 77.52%
+2026-11-10 03:10:03 | robust  67/125 hard       lr 4.72392e-05 Top1 77.21% (teacher 88.34%) CE 0.969 KD 1.559 VQ 3.795 idx 99.2% used 128/128 PPL 120.7 spread 2.1435 pred_classes 100 best 77.52%
+2026-11-10 03:13:48 | robust  68/125 hard       lr 4.60265e-05 Top1 77.31% (teacher 88.35%) CE 0.959 KD 1.535 VQ 3.749 idx 99.1% used 128/128 PPL 120.7 spread 2.1313 pred_classes 100 best 77.52%
+2026-11-10 03:17:35 | robust  69/125 hard       lr 4.48172e-05 Top1 77.46% (teacher 88.40%) CE 0.953 KD 1.535 VQ 3.773 idx 99.2% used 128/128 PPL 120.4 spread 2.1375 pred_classes 100 best 77.52%
+2026-11-10 03:21:30 | robust BEST epoch=70 phase=hard top1/score=77.54%
+2026-11-10 03:21:30 | robust  70/125 hard       lr 4.36121e-05 Top1 77.56% (teacher 88.51%) CE 0.949 KD 1.529 VQ 3.780 idx 99.1% used 128/128 PPL 120.7 spread 2.1367 pred_classes 100 best 77.54%
+2026-11-10 03:25:17 | robust  71/125 hard       lr 4.2412e-05 Top1 77.42% (teacher 88.30%) CE 0.959 KD 1.542 VQ 3.793 idx 99.1% used 128/128 PPL 120.5 spread 2.1395 pred_classes 100 best 77.54%
+2026-11-10 03:29:04 | robust  72/125 hard       lr 4.12177e-05 Top1 77.70% (teacher 88.40%) CE 0.947 KD 1.522 VQ 3.775 idx 99.1% used 128/128 PPL 120.6 spread 2.1334 pred_classes 100 best 77.54%
+2026-11-10 03:32:51 | robust  73/125 hard       lr 4.00298e-05 Top1 77.65% (teacher 88.41%) CE 0.949 KD 1.522 VQ 3.779 idx 99.1% used 128/128 PPL 120.6 spread 2.1316 pred_classes 100 best 77.54%
+2026-11-10 03:36:38 | robust  74/125 hard       lr 3.88492e-05 Top1 77.53% (teacher 88.41%) CE 0.947 KD 1.519 VQ 3.794 idx 99.2% used 128/128 PPL 120.8 spread 2.1358 pred_classes 100 best 77.54%
+2026-11-10 03:40:33 | robust BEST epoch=75 phase=hard top1/score=77.92%
+2026-11-10 03:40:33 | robust  75/125 hard       lr 3.76766e-05 Top1 77.57% (teacher 88.39%) CE 0.949 KD 1.518 VQ 3.808 idx 99.2% used 128/128 PPL 120.7 spread 2.1388 pred_classes 100 best 77.92%
+2026-11-10 03:44:21 | robust  76/125 hard       lr 3.65127e-05 Top1 77.70% (teacher 88.45%) CE 0.947 KD 1.520 VQ 3.796 idx 99.1% used 128/128 PPL 120.6 spread 2.1338 pred_classes 100 best 77.92%
+2026-11-10 03:48:10 | robust  77/125 hard       lr 3.53583e-05 Top1 77.87% (teacher 88.47%) CE 0.935 KD 1.503 VQ 3.771 idx 99.1% used 128/128 PPL 120.5 spread 2.1282 pred_classes 100 best 77.92%
+2026-11-10 03:51:56 | robust  78/125 hard       lr 3.4214e-05 Top1 77.75% (teacher 88.29%) CE 0.940 KD 1.495 VQ 3.738 idx 99.1% used 128/128 PPL 120.6 spread 2.1181 pred_classes 100 best 77.92%
+2026-11-10 03:55:43 | robust  79/125 hard       lr 3.30807e-05 Top1 77.72% (teacher 88.30%) CE 0.943 KD 1.498 VQ 3.742 idx 99.1% used 128/128 PPL 120.6 spread 2.1185 pred_classes 100 best 77.92%
+2026-11-10 03:59:38 | robust  80/125 hard       lr 3.1959e-05 Top1 77.94% (teacher 88.43%) CE 0.937 KD 1.499 VQ 3.742 idx 99.1% used 128/128 PPL 120.4 spread 2.1176 pred_classes 100 best 77.92%
+2026-11-10 04:03:26 | robust  81/125 hard       lr 3.08497e-05 Top1 77.88% (teacher 88.43%) CE 0.935 KD 1.492 VQ 3.719 idx 99.1% used 128/128 PPL 120.3 spread 2.1114 pred_classes 100 best 77.92%
+2026-11-10 04:07:12 | robust  82/125 hard       lr 2.97534e-05 Top1 77.91% (teacher 88.36%) CE 0.935 KD 1.495 VQ 3.768 idx 99.1% used 128/128 PPL 120.5 spread 2.1260 pred_classes 100 best 77.92%
+2026-11-10 04:10:59 | robust  83/125 hard       lr 2.86709e-05 Top1 78.02% (teacher 88.36%) CE 0.932 KD 1.489 VQ 3.740 idx 99.1% used 128/128 PPL 120.4 spread 2.1182 pred_classes 100 best 77.92%
+2026-11-10 04:14:44 | robust  84/125 hard       lr 2.76027e-05 Top1 77.92% (teacher 88.39%) CE 0.932 KD 1.478 VQ 3.748 idx 99.1% used 128/128 PPL 120.4 spread 2.1188 pred_classes 100 best 77.92%
+2026-11-10 04:18:39 | robust BEST epoch=85 phase=hard top1/score=78.24%
+2026-11-10 04:18:39 | robust  85/125 hard       lr 2.65497e-05 Top1 77.90% (teacher 88.43%) CE 0.926 KD 1.477 VQ 3.749 idx 99.1% used 128/128 PPL 120.3 spread 2.1194 pred_classes 100 best 78.24%
+2026-11-10 04:22:26 | robust  86/125 hard       lr 2.55124e-05 Top1 78.12% (teacher 88.50%) CE 0.918 KD 1.462 VQ 3.711 idx 99.1% used 128/128 PPL 120.3 spread 2.1096 pred_classes 100 best 78.24%
+2026-11-10 04:26:14 | robust  87/125 hard       lr 2.44915e-05 Top1 78.08% (teacher 88.27%) CE 0.928 KD 1.475 VQ 3.756 idx 99.2% used 128/128 PPL 120.4 spread 2.1192 pred_classes 100 best 78.24%
+2026-11-10 04:30:00 | robust  88/125 hard       lr 2.34877e-05 Top1 78.30% (teacher 88.37%) CE 0.914 KD 1.463 VQ 3.730 idx 99.1% used 128/128 PPL 120.2 spread 2.1119 pred_classes 100 best 78.24%
+2026-11-10 04:33:46 | robust  89/125 hard       lr 2.25016e-05 Top1 78.23% (teacher 88.35%) CE 0.913 KD 1.455 VQ 3.700 idx 99.1% used 128/128 PPL 120.1 spread 2.1040 pred_classes 100 best 78.24%
+2026-11-10 04:37:41 | robust BEST epoch=90 phase=hard top1/score=78.38%
+2026-11-10 04:37:41 | robust  90/125 hard       lr 2.15338e-05 Top1 78.19% (teacher 88.40%) CE 0.920 KD 1.460 VQ 3.701 idx 99.2% used 128/128 PPL 120.1 spread 2.1025 pred_classes 100 best 78.38%
+2026-11-10 04:41:28 | robust  91/125 hard       lr 2.05849e-05 Top1 78.21% (teacher 88.42%) CE 0.919 KD 1.463 VQ 3.742 idx 99.1% used 128/128 PPL 120.4 spread 2.1125 pred_classes 100 best 78.38%
+2026-11-10 04:45:15 | robust  92/125 hard       lr 1.96556e-05 Top1 78.27% (teacher 88.37%) CE 0.914 KD 1.455 VQ 3.724 idx 99.1% used 128/128 PPL 120.4 spread 2.1081 pred_classes 100 best 78.38%
+2026-11-10 04:49:02 | robust  93/125 hard       lr 1.87464e-05 Top1 78.21% (teacher 88.38%) CE 0.915 KD 1.460 VQ 3.727 idx 99.1% used 128/128 PPL 120.4 spread 2.1086 pred_classes 100 best 78.38%
+2026-11-10 04:52:47 | robust  94/125 hard       lr 1.78578e-05 Top1 78.48% (teacher 88.30%) CE 0.908 KD 1.445 VQ 3.698 idx 99.1% used 128/128 PPL 120.3 spread 2.1007 pred_classes 100 best 78.38%
+2026-11-10 04:56:43 | robust  95/125 hard       lr 1.69905e-05 Top1 78.44% (teacher 88.32%) CE 0.907 KD 1.439 VQ 3.702 idx 99.1% used 128/128 PPL 120.3 spread 2.1018 pred_classes 100 best 78.38%
+2026-11-10 05:00:31 | robust  96/125 hard       lr 1.6145e-05 Top1 78.58% (teacher 88.35%) CE 0.907 KD 1.441 VQ 3.694 idx 99.1% used 128/128 PPL 120.2 spread 2.0992 pred_classes 100 best 78.38%
+2026-11-10 05:04:18 | robust  97/125 hard       lr 1.53219e-05 Top1 78.62% (teacher 88.28%) CE 0.898 KD 1.434 VQ 3.701 idx 99.1% used 128/128 PPL 120.0 spread 2.1021 pred_classes 100 best 78.38%
+2026-11-10 05:08:03 | robust  98/125 hard       lr 1.45215e-05 Top1 78.58% (teacher 88.33%) CE 0.903 KD 1.442 VQ 3.696 idx 99.1% used 128/128 PPL 120.1 spread 2.1005 pred_classes 100 best 78.38%
+2026-11-10 05:11:50 | robust  99/125 hard       lr 1.37446e-05 Top1 78.44% (teacher 88.48%) CE 0.910 KD 1.445 VQ 3.696 idx 99.1% used 128/128 PPL 120.1 spread 2.1001 pred_classes 100 best 78.38%
+2026-11-10 05:15:44 | robust 100/125 hard       lr 1.29915e-05 Top1 78.67% (teacher 88.43%) CE 0.897 KD 1.425 VQ 3.668 idx 99.1% used 128/128 PPL 120.1 spread 2.0925 pred_classes 100 best 78.38%
+2026-11-10 05:19:32 | robust 101/125 hard       lr 1.22627e-05 Top1 78.63% (teacher 88.44%) CE 0.899 KD 1.435 VQ 3.696 idx 99.1% used 128/128 PPL 120.0 spread 2.0988 pred_classes 100 best 78.38%
+2026-11-10 05:23:19 | robust 102/125 hard       lr 1.15587e-05 Top1 78.64% (teacher 88.44%) CE 0.898 KD 1.429 VQ 3.697 idx 99.1% used 128/128 PPL 119.9 spread 2.1000 pred_classes 100 best 78.38%
+2026-11-10 05:27:06 | robust 103/125 hard       lr 1.08799e-05 Top1 78.61% (teacher 88.39%) CE 0.898 KD 1.432 VQ 3.711 idx 99.1% used 128/128 PPL 120.2 spread 2.1022 pred_classes 100 best 78.38%
+2026-11-10 05:30:53 | robust 104/125 hard       lr 1.02268e-05 Top1 78.69% (teacher 88.36%) CE 0.896 KD 1.420 VQ 3.696 idx 99.1% used 128/128 PPL 120.0 spread 2.0985 pred_classes 100 best 78.38%
+2026-11-10 05:34:47 | robust BEST epoch=105 phase=hard top1/score=78.42%
+2026-11-10 05:34:47 | robust 105/125 hard       lr 9.59971e-06 Top1 78.81% (teacher 88.44%) CE 0.898 KD 1.423 VQ 3.668 idx 99.1% used 128/128 PPL 120.0 spread 2.0916 pred_classes 100 best 78.42%
+2026-11-10 05:38:36 | robust 106/125 hard       lr 8.99913e-06 Top1 78.89% (teacher 88.47%) CE 0.889 KD 1.412 VQ 3.679 idx 99.2% used 128/128 PPL 120.1 spread 2.0938 pred_classes 100 best 78.42%
+2026-11-10 05:42:25 | robust 107/125 hard       lr 8.42538e-06 Top1 78.58% (teacher 88.37%) CE 0.900 KD 1.426 VQ 3.696 idx 99.1% used 128/128 PPL 120.1 spread 2.0969 pred_classes 100 best 78.42%
+2026-11-10 05:46:13 | robust 108/125 hard       lr 7.87885e-06 Top1 78.73% (teacher 88.31%) CE 0.896 KD 1.418 VQ 3.698 idx 99.1% used 128/128 PPL 120.1 spread 2.0972 pred_classes 100 best 78.42%
+2026-11-10 05:50:00 | robust 109/125 hard       lr 7.35986e-06 Top1 78.77% (teacher 88.44%) CE 0.895 KD 1.421 VQ 3.681 idx 99.1% used 128/128 PPL 120.0 spread 2.0935 pred_classes 100 best 78.42%
+2026-11-10 05:53:54 | robust 110/125 hard       lr 6.86876e-06 Top1 78.84% (teacher 88.42%) CE 0.889 KD 1.417 VQ 3.702 idx 99.1% used 128/128 PPL 119.9 spread 2.0987 pred_classes 100 best 78.42%
+2026-11-10 05:57:41 | robust 111/125 hard       lr 6.40584e-06 Top1 78.73% (teacher 88.35%) CE 0.897 KD 1.424 VQ 3.691 idx 99.1% used 128/128 PPL 120.1 spread 2.0965 pred_classes 100 best 78.42%
+2026-11-10 06:01:29 | robust 112/125 hard       lr 5.97141e-06 Top1 78.70% (teacher 88.36%) CE 0.897 KD 1.421 VQ 3.697 idx 99.2% used 128/128 PPL 119.9 spread 2.0973 pred_classes 100 best 78.42%
+2026-11-10 06:05:16 | robust 113/125 hard       lr 5.56573e-06 Top1 78.92% (teacher 88.39%) CE 0.886 KD 1.414 VQ 3.678 idx 99.1% used 128/128 PPL 119.9 spread 2.0937 pred_classes 100 best 78.42%
+2026-11-10 06:09:03 | robust 114/125 hard       lr 5.18907e-06 Top1 78.81% (teacher 88.40%) CE 0.888 KD 1.416 VQ 3.694 idx 99.2% used 128/128 PPL 119.9 spread 2.0971 pred_classes 100 best 78.42%
+2026-11-10 06:12:58 | robust 115/125 hard       lr 4.84166e-06 Top1 79.05% (teacher 88.60%) CE 0.883 KD 1.417 VQ 3.667 idx 99.1% used 128/128 PPL 119.9 spread 2.0903 pred_classes 100 best 78.42%
+2026-11-10 06:16:47 | robust 116/125 hard       lr 4.52372e-06 Top1 78.94% (teacher 88.44%) CE 0.890 KD 1.418 VQ 3.659 idx 99.1% used 128/128 PPL 119.8 spread 2.0869 pred_classes 100 best 78.42%
+2026-11-10 06:20:35 | robust 117/125 hard       lr 4.23545e-06 Top1 78.78% (teacher 88.25%) CE 0.893 KD 1.418 VQ 3.653 idx 99.1% used 128/128 PPL 119.9 spread 2.0849 pred_classes 100 best 78.42%
+2026-11-10 06:24:20 | robust 118/125 hard       lr 3.97703e-06 Top1 78.86% (teacher 88.47%) CE 0.884 KD 1.410 VQ 3.656 idx 99.1% used 128/128 PPL 119.8 spread 2.0867 pred_classes 100 best 78.42%
+2026-11-10 06:28:08 | robust 119/125 hard       lr 3.74863e-06 Top1 78.86% (teacher 88.46%) CE 0.887 KD 1.404 VQ 3.664 idx 99.1% used 128/128 PPL 120.0 spread 2.0883 pred_classes 100 best 78.42%
+2026-11-10 06:32:03 | robust BEST epoch=120 phase=hard top1/score=78.46%
+2026-11-10 06:32:03 | robust 120/125 hard       lr 3.55039e-06 Top1 78.89% (teacher 88.32%) CE 0.889 KD 1.419 VQ 3.676 idx 99.1% used 128/128 PPL 119.9 spread 2.0907 pred_classes 100 best 78.46%
+2026-11-10 06:35:50 | robust 121/125 hard       lr 3.38244e-06 Top1 79.03% (teacher 88.42%) CE 0.880 KD 1.403 VQ 3.679 idx 99.1% used 128/128 PPL 119.9 spread 2.0925 pred_classes 100 best 78.46%
+2026-11-10 06:39:36 | robust 122/125 hard       lr 3.24488e-06 Top1 78.88% (teacher 88.45%) CE 0.889 KD 1.410 VQ 3.672 idx 99.1% used 128/128 PPL 119.9 spread 2.0903 pred_classes 100 best 78.46%
+2026-11-10 06:43:22 | robust 123/125 hard       lr 3.13779e-06 Top1 78.98% (teacher 88.39%) CE 0.880 KD 1.409 VQ 3.680 idx 99.1% used 128/128 PPL 119.8 spread 2.0926 pred_classes 100 best 78.46%
+2026-11-10 06:47:09 | robust 124/125 hard       lr 3.06126e-06 Top1 78.87% (teacher 88.44%) CE 0.888 KD 1.408 VQ 3.671 idx 99.1% used 128/128 PPL 119.9 spread 2.0901 pred_classes 100 best 78.46%
+2026-11-10 06:51:05 | robust 125/125 hard       lr 3.01532e-06 Top1 78.84% (teacher 88.37%) CE 0.887 KD 1.409 VQ 3.679 idx 99.1% used 128/128 PPL 119.9 spread 2.0913 pred_classes 100 best 78.46%
+2026-11-10 06:51:05 | Finished; evaluating stage2 best.pt and last.pt on physical channels
+2026-11-10 06:51:13 | Clean interface Top-1 78.500 / original frozen Backbone 85.480
+2026-11-10 06:51:46 | awgn     none            SNR= -9 | top1 78.46 ± 0.04 / index 99.97
+2026-11-10 06:52:22 | awgn     none            SNR= -7 | top1 78.46 ± 0.04 / index 100.00
+2026-11-10 06:52:56 | awgn     none            SNR= -5 | top1 78.46 ± 0.06 / index 100.00
+2026-11-10 06:53:30 | awgn     none            SNR= -3 | top1 78.50 ± 0.03 / index 100.00
+2026-11-10 06:54:03 | awgn     none            SNR= -1 | top1 78.48 ± 0.01 / index 100.00
+2026-11-10 06:54:38 | awgn     none            SNR= +1 | top1 78.49 ± 0.01 / index 100.00
+2026-11-10 06:55:12 | awgn     none            SNR= +5 | top1 78.48 ± 0.01 / index 100.00
+2026-11-10 06:55:47 | awgn     none            SNR= +9 | top1 78.49 ± 0.01 / index 100.00
+2026-11-10 06:56:22 | rician   none            SNR= -9 | top1 77.10 ± 0.14 / index 94.56
+2026-11-10 06:56:55 | rician   none            SNR= -7 | top1 77.71 ± 0.09 / index 97.53
+2026-11-10 06:57:29 | rician   none            SNR= -5 | top1 78.14 ± 0.09 / index 98.94
+2026-11-10 06:58:03 | rician   none            SNR= -3 | top1 78.32 ± 0.08 / index 99.52
+2026-11-10 06:58:37 | rician   none            SNR= -1 | top1 78.41 ± 0.07 / index 99.76
+2026-11-10 06:59:11 | rician   none            SNR= +1 | top1 78.45 ± 0.01 / index 99.90
+2026-11-10 06:59:46 | rician   none            SNR= +5 | top1 78.48 ± 0.02 / index 99.96
+2026-11-10 07:00:20 | rician   none            SNR= +9 | top1 78.49 ± 0.02 / index 99.97
+2026-11-10 07:00:51 | rician   imperfect_ls    SNR= -9 | top1 77.10 ± 0.14 / index 94.56
+2026-11-10 07:01:23 | rician   imperfect_ls    SNR= -7 | top1 77.71 ± 0.09 / index 97.53
+2026-11-10 07:01:56 | rician   imperfect_ls    SNR= -5 | top1 78.14 ± 0.09 / index 98.94
+2026-11-10 07:02:28 | rician   imperfect_ls    SNR= -3 | top1 78.32 ± 0.08 / index 99.52
+2026-11-10 07:03:01 | rician   imperfect_ls    SNR= -1 | top1 78.41 ± 0.07 / index 99.76
+2026-11-10 07:03:32 | rician   imperfect_ls    SNR= +1 | top1 78.45 ± 0.01 / index 99.90
+2026-11-10 07:04:05 | rician   imperfect_ls    SNR= +5 | top1 78.48 ± 0.02 / index 99.96
+2026-11-10 07:04:38 | rician   imperfect_ls    SNR= +9 | top1 78.49 ± 0.02 / index 99.97
+2026-11-10 07:05:11 | rician   perfect_ls      SNR= -9 | top1 77.10 ± 0.14 / index 94.56
+2026-11-10 07:05:43 | rician   perfect_ls      SNR= -7 | top1 77.71 ± 0.09 / index 97.53
+2026-11-10 07:06:16 | rician   perfect_ls      SNR= -5 | top1 78.14 ± 0.09 / index 98.94
+2026-11-10 07:06:45 | rician   perfect_ls      SNR= -3 | top1 78.32 ± 0.08 / index 99.52
+2026-11-10 07:07:18 | rician   perfect_ls      SNR= -1 | top1 78.41 ± 0.07 / index 99.76
+2026-11-10 07:07:51 | rician   perfect_ls      SNR= +1 | top1 78.45 ± 0.01 / index 99.90
+2026-11-10 07:08:23 | rician   perfect_ls      SNR= +5 | top1 78.48 ± 0.02 / index 99.96
+2026-11-10 07:08:52 | rician   perfect_ls      SNR= +9 | top1 78.49 ± 0.02 / index 99.97
+2026-11-10 07:09:24 | rayleigh none            SNR= -9 | top1 69.04 ± 0.36 / index 80.55
+2026-11-10 07:09:57 | rayleigh none            SNR= -7 | top1 72.34 ± 0.22 / index 87.02
+2026-11-10 07:10:28 | rayleigh none            SNR= -5 | top1 74.50 ± 0.27 / index 91.59
+2026-11-10 07:10:59 | rayleigh none            SNR= -3 | top1 75.84 ± 0.20 / index 94.52
+2026-11-10 07:11:31 | rayleigh none            SNR= -1 | top1 77.00 ± 0.18 / index 96.67
+2026-11-10 07:12:00 | rayleigh none            SNR= +1 | top1 77.57 ± 0.14 / index 97.87
+2026-11-10 07:12:33 | rayleigh none            SNR= +5 | top1 78.12 ± 0.07 / index 99.14
+2026-11-10 07:13:07 | rayleigh none            SNR= +9 | top1 78.33 ± 0.11 / index 99.70
+2026-11-10 07:13:40 | rayleigh imperfect_ls    SNR= -9 | top1 69.04 ± 0.36 / index 80.55
+2026-11-10 07:14:11 | rayleigh imperfect_ls    SNR= -7 | top1 72.34 ± 0.22 / index 87.02
+2026-11-10 07:14:42 | rayleigh imperfect_ls    SNR= -5 | top1 74.50 ± 0.27 / index 91.59
+2026-11-10 07:15:13 | rayleigh imperfect_ls    SNR= -3 | top1 75.84 ± 0.20 / index 94.52
+2026-11-10 07:15:46 | rayleigh imperfect_ls    SNR= -1 | top1 77.00 ± 0.18 / index 96.67
+2026-11-10 07:16:15 | rayleigh imperfect_ls    SNR= +1 | top1 77.58 ± 0.14 / index 97.87
+2026-11-10 07:16:49 | rayleigh imperfect_ls    SNR= +5 | top1 78.12 ± 0.07 / index 99.14
+2026-11-10 07:17:22 | rayleigh imperfect_ls    SNR= +9 | top1 78.33 ± 0.11 / index 99.70
+2026-11-10 07:17:54 | rayleigh perfect_ls      SNR= -9 | top1 69.04 ± 0.36 / index 80.55
+2026-11-10 07:18:27 | rayleigh perfect_ls      SNR= -7 | top1 72.34 ± 0.22 / index 87.02
+2026-11-10 07:18:56 | rayleigh perfect_ls      SNR= -5 | top1 74.50 ± 0.27 / index 91.59
+2026-11-10 07:19:28 | rayleigh perfect_ls      SNR= -3 | top1 75.84 ± 0.20 / index 94.52
+2026-11-10 07:19:57 | rayleigh perfect_ls      SNR= -1 | top1 77.00 ± 0.18 / index 96.67
+2026-11-10 07:20:29 | rayleigh perfect_ls      SNR= +1 | top1 77.58 ± 0.14 / index 97.87
+2026-11-10 07:21:02 | rayleigh perfect_ls      SNR= +5 | top1 78.12 ± 0.07 / index 99.14
+2026-11-10 07:21:36 | rayleigh perfect_ls      SNR= +9 | top1 78.33 ± 0.11 / index 99.70
+2026-11-10 07:21:36 | Saved result tables to runs/resnet18/full/test_best
+2026-11-10 07:21:43 | Clean interface Top-1 78.420 / original frozen Backbone 85.480
+2026-11-10 07:22:18 | awgn     none            SNR= -9 | top1 78.42 ± 0.03 / index 99.97
+2026-11-10 07:22:51 | awgn     none            SNR= -7 | top1 78.42 ± 0.05 / index 100.00
+2026-11-10 07:23:20 | awgn     none            SNR= -5 | top1 78.44 ± 0.03 / index 100.00
+2026-11-10 07:23:52 | awgn     none            SNR= -3 | top1 78.43 ± 0.02 / index 100.00
+2026-11-10 07:24:24 | awgn     none            SNR= -1 | top1 78.42 ± 0.01 / index 100.00
+2026-11-10 07:24:55 | awgn     none            SNR= +1 | top1 78.42 ± 0.01 / index 100.00
+2026-11-10 07:25:25 | awgn     none            SNR= +5 | top1 78.42 ± 0.00 / index 100.00
+2026-11-10 07:25:59 | awgn     none            SNR= +9 | top1 78.41 ± 0.01 / index 100.00
+2026-11-10 07:26:30 | rician   none            SNR= -9 | top1 76.96 ± 0.06 / index 94.55
+2026-11-10 07:27:01 | rician   none            SNR= -7 | top1 77.74 ± 0.08 / index 97.52
+2026-11-10 07:27:34 | rician   none            SNR= -5 | top1 78.07 ± 0.06 / index 98.94
+2026-11-10 07:28:06 | rician   none            SNR= -3 | top1 78.24 ± 0.09 / index 99.52
+2026-11-10 07:28:38 | rician   none            SNR= -1 | top1 78.32 ± 0.05 / index 99.76
+2026-11-10 07:29:06 | rician   none            SNR= +1 | top1 78.38 ± 0.01 / index 99.89
+2026-11-10 07:29:40 | rician   none            SNR= +5 | top1 78.40 ± 0.01 / index 99.96
+2026-11-10 07:30:13 | rician   none            SNR= +9 | top1 78.41 ± 0.02 / index 99.97
+2026-11-10 07:30:46 | rician   imperfect_ls    SNR= -9 | top1 76.96 ± 0.06 / index 94.55
+2026-11-10 07:31:19 | rician   imperfect_ls    SNR= -7 | top1 77.74 ± 0.08 / index 97.52
+2026-11-10 07:31:49 | rician   imperfect_ls    SNR= -5 | top1 78.07 ± 0.06 / index 98.94
+2026-11-10 07:32:20 | rician   imperfect_ls    SNR= -3 | top1 78.24 ± 0.09 / index 99.52
+2026-11-10 07:32:52 | rician   imperfect_ls    SNR= -1 | top1 78.32 ± 0.05 / index 99.76
+2026-11-10 07:33:22 | rician   imperfect_ls    SNR= +1 | top1 78.38 ± 0.01 / index 99.89
+2026-11-10 07:33:54 | rician   imperfect_ls    SNR= +5 | top1 78.40 ± 0.01 / index 99.96
+2026-11-10 07:34:28 | rician   imperfect_ls    SNR= +9 | top1 78.41 ± 0.02 / index 99.97
+2026-11-10 07:35:00 | rician   perfect_ls      SNR= -9 | top1 76.96 ± 0.06 / index 94.55
+2026-11-10 07:35:32 | rician   perfect_ls      SNR= -7 | top1 77.74 ± 0.08 / index 97.52
+2026-11-10 07:36:02 | rician   perfect_ls      SNR= -5 | top1 78.07 ± 0.06 / index 98.94
+2026-11-10 07:36:35 | rician   perfect_ls      SNR= -3 | top1 78.24 ± 0.09 / index 99.52
+2026-11-10 07:37:04 | rician   perfect_ls      SNR= -1 | top1 78.32 ± 0.05 / index 99.76
+2026-11-10 07:37:36 | rician   perfect_ls      SNR= +1 | top1 78.38 ± 0.01 / index 99.89
+2026-11-10 07:38:06 | rician   perfect_ls      SNR= +5 | top1 78.40 ± 0.01 / index 99.96
+2026-11-10 07:38:36 | rician   perfect_ls      SNR= +9 | top1 78.41 ± 0.02 / index 99.97
+2026-11-10 07:39:09 | rayleigh none            SNR= -9 | top1 68.96 ± 0.19 / index 80.54
+2026-11-10 07:39:41 | rayleigh none            SNR= -7 | top1 72.33 ± 0.17 / index 87.04
+2026-11-10 07:40:10 | rayleigh none            SNR= -5 | top1 74.49 ± 0.21 / index 91.59
+2026-11-10 07:40:43 | rayleigh none            SNR= -3 | top1 75.84 ± 0.15 / index 94.52
+2026-11-10 07:41:17 | rayleigh none            SNR= -1 | top1 76.93 ± 0.19 / index 96.66
+2026-11-10 07:41:52 | rayleigh none            SNR= +1 | top1 77.50 ± 0.15 / index 97.87
+2026-11-10 07:42:26 | rayleigh none            SNR= +5 | top1 78.07 ± 0.06 / index 99.14
+2026-11-10 07:42:56 | rayleigh none            SNR= +9 | top1 78.28 ± 0.10 / index 99.70
+2026-11-10 07:43:26 | rayleigh imperfect_ls    SNR= -9 | top1 68.96 ± 0.19 / index 80.54
+2026-11-10 07:43:59 | rayleigh imperfect_ls    SNR= -7 | top1 72.33 ± 0.17 / index 87.04
+2026-11-10 07:44:30 | rayleigh imperfect_ls    SNR= -5 | top1 74.49 ± 0.21 / index 91.59
+2026-11-10 07:45:00 | rayleigh imperfect_ls    SNR= -3 | top1 75.84 ± 0.15 / index 94.52
+2026-11-10 07:45:31 | rayleigh imperfect_ls    SNR= -1 | top1 76.93 ± 0.19 / index 96.66
+2026-11-10 07:46:02 | rayleigh imperfect_ls    SNR= +1 | top1 77.50 ± 0.15 / index 97.87
+2026-11-10 07:46:35 | rayleigh imperfect_ls    SNR= +5 | top1 78.07 ± 0.06 / index 99.14
+2026-11-10 07:47:06 | rayleigh imperfect_ls    SNR= +9 | top1 78.28 ± 0.10 / index 99.70
+2026-11-10 07:47:35 | rayleigh perfect_ls      SNR= -9 | top1 68.96 ± 0.19 / index 80.54
+2026-11-10 07:48:07 | rayleigh perfect_ls      SNR= -7 | top1 72.33 ± 0.17 / index 87.04
+2026-11-10 07:48:43 | rayleigh perfect_ls      SNR= -5 | top1 74.49 ± 0.21 / index 91.59
+2026-11-10 07:49:16 | rayleigh perfect_ls      SNR= -3 | top1 75.84 ± 0.15 / index 94.52
+2026-11-10 07:49:49 | rayleigh perfect_ls      SNR= -1 | top1 76.93 ± 0.19 / index 96.66
+2026-11-10 07:50:23 | rayleigh perfect_ls      SNR= +1 | top1 77.50 ± 0.15 / index 97.87
+2026-11-10 07:50:57 | rayleigh perfect_ls      SNR= +5 | top1 78.07 ± 0.06 / index 99.14
+2026-11-10 07:51:29 | rayleigh perfect_ls      SNR= +9 | top1 78.28 ± 0.10 / index 99.70
+2026-11-10 07:51:29 | Saved result tables to runs/resnet18/full/test_last
+2026-11-10 07:51:29 | Finished.
